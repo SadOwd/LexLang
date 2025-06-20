@@ -1,13 +1,13 @@
-# LexLang
-# 📚 Base Lexicale Publique – Langue [Nom de la langue]
+# LexLangE
+# 📚 Base Lexicale Publique – Langue Éwé
 
-Projet numérique collaboratif visant à documenter, structurer et diffuser un lexique de base pour la langue **[Nom de la langue]**, dans le but de la rendre exploitable par les outils d’intelligence artificielle, les applications éducatives, et les projets linguistiques.
+Projet numérique collaboratif visant à documenter, structurer et diffuser un lexique de base pour la langue Éwé, dans le but de la rendre exploitable par les outils d’intelligence artificielle, les applications éducatives, et les projets linguistiques.
 
 ---
 
 ## 🧭 Objectifs
 
-- 📖 Rendre accessible la langue [Nom] sous format structuré (CSV/JSON)
+- 📖 Rendre accessible la langue Éwé sous format structuré (CSV/JSON)
 - 🤖 Faciliter l'intégration dans des outils de NLP, TTS, ASR, IA
 - 🧑‍🏫 Soutenir l’enseignement et l’apprentissage de la langue
 - 🌍 Valoriser le patrimoine linguistique local à travers les outils numériques
@@ -83,17 +83,17 @@ Vous pouvez librement :
 - Partager — copier, distribuer, transmettre
 - Adapter — remixer, transformer, créer à partir du corpus
 
-À condition de **citer l’auteur/source** du projet.
+À condition de ShadowDalia du projet.
 
 ---
 
 ## 📢 Contacts & Remerciements
 
 **Coordinateur du projet** : [Votre nom / pseudo GitHub]  
-📧 Contact : [adresse email ou lien site]  
+📧 Contact : shadowdalia@proton.me  
 🌐 Lien de présentation : [site, TikTok, Instagram, etc.]
 
-Un grand merci à tous les locuteurs, linguistes, développeurs, et contributeurs qui participent à la préservation et valorisation de la langue [Nom].
+Un grand merci à tous les locuteurs, linguistes, développeurs, et contributeurs qui participent à la préservation et valorisation de la langue Éwé.
 
 ---
 
