@@ -1,10 +1,10 @@
-# 🌍 LexLang – Langue Mina (Gen, Gɛ̃)
+#LexLang – Langue Mina (Gen, Gɛ̃)
 
 Projet numérique collaboratif visant à constituer une **base lexicale publique structurée** pour la langue **Mina** (ou Gen), dans le cadre du programme *LexLang*. L'objectif est de documenter, diffuser et rendre interopérable cette ressource linguistique pour des usages en **éducation**, **technologie linguistique**, **intelligence artificielle** et **préservation du patrimoine culturel**.
 
 ---
 
-## 🧠 À propos de la langue Mina
+## À propos de la langue Mina
 
 - **Nom local :** Gɛ̃
 - **Noms alternatifs :** Gen, Guen
@@ -15,7 +15,7 @@ Projet numérique collaboratif visant à constituer une **base lexicale publique
 
 ---
 
-## 📦 Fichier principal : `lexique.csv`
+## Fichier principal : `lexique.csv`
 
 Le fichier contient un **lexique structuré** avec les champs suivants :
 
@@ -37,7 +37,7 @@ afɔ,àfɔ́,nom,pied,"Me nɔ́ afɔ gake e wò dze.",
 
 ---
 
-## 🎯 Objectifs du projet
+## Objectifs du projet
 
 - Documenter un lexique de base de 1 000 mots courants
 - Structurer les données pour usage en IA (tokenisation, TTS, NLP)
@@ -46,7 +46,7 @@ afɔ,àfɔ́,nom,pied,"Me nɔ́ afɔ gake e wò dze.",
 
 ---
 
-## 🤝 Contribuer
+## Contribuer
 
 Tu peux contribuer en :
 - Ajoutant de nouveaux mots
@@ -56,7 +56,7 @@ Tu peux contribuer en :
 
 ---
 
-## 📚 Sources & Références
+## Sources & Références
 
 - SIL International – Ethnologue entry on Mina (Gen)
 - Publications linguistiques sur les langues Gbe
@@ -65,12 +65,12 @@ Tu peux contribuer en :
 
 ---
 
-## 📜 Licence
+## Licence
 
 Ce projet est distribué sous la licence **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Vous êtes libres de réutiliser et modifier les données en citant la source.
 
 ---
 
-## 🚀 Contact
+## Contact
 
 Pour toute contribution majeure ou projet de partenariat, veuillez contacter l’équipe via [Issues](https://github.com/ton-profil/LexLang/issues) ou créer une *pull request*.
