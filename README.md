@@ -54,8 +54,6 @@ Tu peux contribuer en :
 - Proposant des sources fiables (linguistes, enseignants, corpus...)
 - Créant des outils ou interfaces autour de la base
 
-👉 Voir [CONTRIBUTING.md](./CONTRIBUTING.md) pour les règles de formatage.
-
 ---
 
 ## 📚 Sources & Références
