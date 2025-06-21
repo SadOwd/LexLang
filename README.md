@@ -33,3 +33,46 @@ Le fichier contient un **lexique structuré** avec les champs suivants :
 ```csv
 mot,prononciation,catégorie,traduction_fr,exemple,variante
 afɔ,àfɔ́,nom,pied,"Me nɔ́ afɔ gake e wò dze.", 
+```
+
+---
+
+## 🎯 Objectifs du projet
+
+- Documenter un lexique de base de 1 000 mots courants
+- Structurer les données pour usage en IA (tokenisation, TTS, NLP)
+- Fournir une ressource libre pour les enseignants et locuteurs
+- Créer un pont entre langue minoritaire et technologies numériques
+
+---
+
+## 🤝 Contribuer
+
+Tu peux contribuer en :
+- Ajoutant de nouveaux mots
+- Corrigeant ou enrichissant les exemples et prononciations
+- Proposant des sources fiables (linguistes, enseignants, corpus...)
+- Créant des outils ou interfaces autour de la base
+
+👉 Voir [CONTRIBUTING.md](./CONTRIBUTING.md) pour les règles de formatage.
+
+---
+
+## 📚 Sources & Références
+
+- SIL International – Ethnologue entry on Mina (Gen)
+- Publications linguistiques sur les langues Gbe
+- Locuteurs natifs de la région d’Aného, Togo
+- Wiktionnaire éwé & mina
+
+---
+
+## 📜 Licence
+
+Ce projet est distribué sous la licence **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Vous êtes libres de réutiliser et modifier les données en citant la source.
+
+---
+
+## 🚀 Contact
+
+Pour toute contribution majeure ou projet de partenariat, veuillez contacter l’équipe via [Issues](https://github.com/ton-profil/LexLang/issues) ou créer une *pull request*.
