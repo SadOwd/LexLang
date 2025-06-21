@@ -1,0 +1,76 @@
+[
+  {
+    "mot": "afɔ",
+    "lemme": "afɔ",
+    "prononciation": "àfɔ́",
+    "catégorie": "nom",
+    "traits": {
+      "nombre": "singulier",
+      "genre": "inanimé"
+    },
+    "traduction_fr": "pied",
+    "exemple": {
+      "source": "Me nɔ́ afɔ gake e wò dze.",
+      "traduction": "Je vois le pied mais il est parti."
+    },
+    "variante": ""
+  },
+  {
+    "mot": "dɔ",
+    "lemme": "dɔ",
+    "prononciation": "dɔ́",
+    "catégorie": "verbe",
+    "traits": {
+      "aspect": "perfectif"
+    },
+    "traduction_fr": "aimer",
+    "exemple": {
+      "source": "É dɔ́ wò dzi.",
+      "traduction": "Il/elle t’aime."
+    },
+    "variante": ""
+  },
+  {
+    "mot": "ame",
+    "lemme": "ame",
+    "prononciation": "àmé",
+    "catégorie": "nom",
+    "traits": {
+      "animé": true
+    },
+    "traduction_fr": "personne",
+    "exemple": {
+      "source": "Ame kple ame be nàku.",
+      "traduction": "Les gens se battent entre eux."
+    },
+    "variante": ""
+  },
+  {
+    "mot": "nu",
+    "lemme": "nu",
+    "prononciation": "nú",
+    "catégorie": "nom",
+    "traits": {},
+    "traduction_fr": "chose",
+    "exemple": {
+      "source": "Nu si wò nye aɖe.",
+      "traduction": "La chose qui est à toi est unique."
+    },
+    "variante": ""
+  },
+  {
+    "mot": "gblɔ",
+    "lemme": "gblɔ",
+    "prononciation": "ɡblɔ́",
+    "catégorie": "verbe",
+    "traits": {
+      "valence": "transitif"
+    },
+    "traduction_fr": "parler",
+    "exemple": {
+      "source": "Me gblɔ́ na wò le mina.",
+      "traduction": "Je te parle en mina."
+    },
+    "variante": ""
+  }
+]
