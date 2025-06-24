@@ -1,4 +1,4 @@
-# 🌍 LexLang - Base Lexicale Publique Multilingue
+# LexLang - Base Lexicale Publique Multilingue
 
 > **Base lexicale open-source pour le français et les langues africaines avec API REST et outils NLP**
 
@@ -6,33 +6,33 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![API Status](https://img.shields.io/badge/API-Active-green.svg)]()
 
-## 🎯 Objectif
+##  Objectif
 
 LexLang est une plateforme open-source qui vise à créer et maintenir une base lexicale publique multilingue, avec un focus particulier sur les langues africaines souvent sous-représentées dans les outils NLP existants.
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
-### 🔥 Moteur NLP Core
+###  Moteur NLP Core
 - **Tokenisation multilingue** adaptée aux langues africaines
 - **Analyse morpho-syntaxique** avec étiquetage POS
 - **Extraction de caractéristiques** linguistiques
 - **Génération de n-grammes** (2, 3, 4-grammes)
 - **Normalisation de texte** Unicode complète
 
-### 🌐 API REST Publique
+###  API REST Publique
 - **Analyse de texte** en temps réel
 - **Recherche lexicale** avancée
 - **Statistiques** de la base de données
 - **Contributions communautaires** 
 - **Rate limiting** et sécurité
 
-### 📊 Gestion de Données
+###  Gestion de Données
 - **Import/Export** multiples formats (JSON, CSV, XML, CoNLL-U)
 - **Base de données** SQLite intégrée
 - **Sauvegarde automatique** 
 - **Versioning** des données
 
-## 🗣️ Langues Supportées
+##  Langues Supportées
 
 | Langue | Code | Statut | Tokens |
 |--------|------|--------|--------|
@@ -42,7 +42,7 @@ LexLang est une plateforme open-source qui vise à créer et maintenir une base 
 | Lingala | `ln` | 🚧 Basique | 5K+ |
 | Swahili | `sw` | 🚧 Basique | 8K+ |
 
-## 🚀 Installation Rapide
+##  Installation Rapide
 
 ### Prérequis
 - Python 3.8+
@@ -66,7 +66,7 @@ python src/api/lexical_api.py
 
 L'API sera accessible sur `http://localhost:5000`
 
-## 📖 Utilisation
+##  Utilisation
 
 ### API REST
 
@@ -104,7 +104,7 @@ token = processor.lexical_db.get_token("bonjour")
 print(f"Fréquence: {token.frequency}")
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 LexLang/
@@ -116,7 +116,7 @@ LexLang/
 └── docs/               # 📚 Documentation
 ```
 
-## 🤝 Contribution
+##  Contribution
 
 Nous encourageons vivement les contributions, surtout pour :
 
@@ -146,14 +146,14 @@ curl -X POST http://localhost:5000/contribute \
   }'
 ```
 
-## 📊 Statistiques du Projet
+##  Statistiques du Projet
 
 - **Total tokens**: 90,000+
 - **Langues actives**: 5
 - **Contributeurs**: Rejoignez-nous !
 - **API calls/jour**: 1,000+
 
-## 🛣️ Roadmap
+## Roadmap
 
 ### Version 1.1 (Q3 2025)
 - [ ] Support de 3 nouvelles langues africaines
@@ -170,22 +170,22 @@ curl -X POST http://localhost:5000/contribute \
 - [ ] API GraphQL
 - [ ] Application mobile
 
-## 📜 Licence
+##  Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## 🙏 Remerciements
+##  Remerciements
 
 - Communauté des linguistes africains
 - Contributeurs open-source
 - Universités partenaires en Afrique
 
-## 📞 Contact
+##  Contact
 
-- **Email**: lexlang.project@gmail.com
+- **Email**: shadowdalia@proton.me
 - **Issues**: [GitHub Issues](https://github.com/SadOwd/LexLang/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/SadOwd/LexLang/discussions)
 
 ---
 
-**🌍 Ensemble, préservons et valorisons la richesse linguistique africaine !**
+** Ensemble, préservons et valorisons la richesse linguistique africaine !**
