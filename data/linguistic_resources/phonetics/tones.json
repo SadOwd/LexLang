@@ -1,1 +1,21 @@
 // TODO: Fill in content for tones.json
+// tones.json
+{
+  "level_tones": {
+    "high": {"mark": "\u0301", "ipa": "˦"},
+    "low": {"mark": "\u0300", "ipa": "˨"},
+    "mid": {"mark": "", "ipa": "˧"}
+  },
+  "contour_tones": {
+    "rising": {"mark": "\u030C", "ipa": "˨˦"},
+    "falling": {"mark": "\u0302", "ipa": "˦˨"}
+  },
+  "tone_rules": [
+    {
+      "name": "rising_high_to_low",
+      "context": "RISING before HIGH",
+      "input": ["RISING", "HIGH"],
+      "output": ["LOW", "HIGH"]
+    }
+  ]
+}
