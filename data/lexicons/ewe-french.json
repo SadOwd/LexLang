@@ -1,1 +1,37 @@
 // TODO: Fill in content for ewe-french.json
+
+```json
+[
+  {
+    "lemma": "aba",
+    "pos": "n",
+    "gloss_fr": "natte, lit",
+    "examples": [
+      {"ewe": "Wônilo aba lá lobo...", "fr": "Ils ont déroulé la natte..."}
+    ],
+    "phonetic": "aɓa",
+    "tonal_pattern": "L-L",
+    "dialect_variants": {
+      "anlo": "aba",
+      "badou": "aba"
+    },
+    "morphology": {
+      "type": "root"
+    }
+  },
+  {
+    "lemma": "yamevú",
+    "pos": "n",
+    "gloss_fr": "avion",
+    "examples": [
+      {"ewe": "Yamevú le tsia...", "fr": "L'avion vole..."}
+    ],
+    "phonetic": "jamɛvú",
+    "tonal_pattern": "M-R-H",
+    "morphology": {
+      "type": "compound",
+      "components": ["ya", "me", "vú"],
+      "gloss": "air + dans + véhicule"
+    }
+  }
+]
