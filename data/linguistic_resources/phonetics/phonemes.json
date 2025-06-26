@@ -1,1 +1,43 @@
 // TODO: Fill in content for phonemes.json
+// phonemes.json
+[
+  {
+    "symbol": "a",
+    "type": "vowel",
+    "articulation": "central_open",
+    "dialect_variants": {
+      "anlo": "a",
+      "inland": "ə",
+      "badou": "ɑ"
+    },
+    "examples": ["ada (palmier)", "afa (peau)"]
+  },
+  {
+    "symbol": "k͡p",
+    "type": "consonant",
+    "articulation": "labiovelar_plosive",
+    "allophones": ["kʷ", "p"],
+    "examples": ["k͡pá (frapper)", "k͡plá (vendre)"]
+  }
+]
+
+// tones.json
+{
+  "level_tones": {
+    "high": {"mark": "\u0301", "ipa": "˦"},
+    "low": {"mark": "\u0300", "ipa": "˨"},
+    "mid": {"mark": "", "ipa": "˧"}
+  },
+  "contour_tones": {
+    "rising": {"mark": "\u030C", "ipa": "˨˦"},
+    "falling": {"mark": "\u0302", "ipa": "˦˨"}
+  },
+  "tone_rules": [
+    {
+      "name": "rising_high_to_low",
+      "context": "RISING before HIGH",
+      "input": ["RISING", "HIGH"],
+      "output": ["LOW", "HIGH"]
+    }
+  ]
+}
