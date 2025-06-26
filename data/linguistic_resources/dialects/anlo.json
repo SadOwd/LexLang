@@ -1,1 +1,20 @@
 // TODO: Fill in content for anlo.json
+// anlo.json
+{
+  "phonetic_mapping": {
+    "e": "ɛ",
+    "o": "ɔ"
+  },
+  "lexical_variants": {
+    "école": "suku",
+    "maison": "aƒe"
+  },
+  "morphological_rules": [
+    {
+      "pattern": "CV",
+      "change": "V → nasalized",
+      "environment": "_nasal_consonant"
+    }
+  ]
+}
+
