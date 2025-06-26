@@ -1,0 +1,26 @@
+{
+    "anlo": {
+        "phonological_features": {
+            "vowel_shifts": ["e > ɛ", "o > ɔ"],
+            "consonant_clusters": ["kp", "gb", "ts"],
+            "nasalization": "contrastive"
+        },
+        "lexical_signatures": ["kple", "woe", "mawu"],
+        "tonal_patterns": {
+            "sandhi_rules": ["H + L > M + L", "L + H > M + H"],
+            "dominant_pattern": "HL"
+        }
+    },
+    "inland": {
+        "phonological_features": {
+            "vowel_shifts": ["ɛ > e", "ɔ > o"],
+            "consonant_clusters": ["ch", "sh"],
+            "nasalization": "non-contrastive"
+        },
+        "lexical_signatures": ["kpo", "yoo", "minye"],
+        "tonal_patterns": {
+            "sandhi_rules": ["H + L > L + L", "L + H > H + H"],
+            "dominant_pattern": "LH"
+        }
+    }
+}
