@@ -1,0 +1,18 @@
+corpus:
+  name: "Anlo Ewe Corpus"
+  dialect: "anlo"
+  region: "Sud-Est Ghana, Sud Togo"
+  sources:
+    - type: "folklore"
+      date_collected: "2015-2018"
+      collectors: ["Dr. K. Fiaga"]
+      authenticity: "high"
+    - type: "modern"
+      date_collected: "2020-2022"
+      collectors: ["University of Lomé"]
+      authenticity: "medium"
+  size:
+    tokens: 1,245,678
+    documents: 245
+  license: "CC BY-NC-SA 4.0"
+  contact: "ewe.corpus@uni-lome.tg"
