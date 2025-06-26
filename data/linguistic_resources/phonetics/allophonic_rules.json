@@ -1,1 +1,29 @@
 // TODO: Fill in content for allophonic_rules.json
+[
+  {
+    "phoneme": "e",
+    "allophones": [
+      {
+        "variant": "ɛ",
+        "environment": "_C[+nasal]",
+        "dialects": ["badou", "natchigou"],
+        "examples": ["dɛ (manger) → dɛ̃"]
+      },
+      {
+        "variant": "ə",
+        "environment": "_#",
+        "examples": ["xɔse (maison) → xɔsə"]
+      }
+    ]
+  },
+  {
+    "phoneme": "g",
+    "allophones": [
+      {
+        "variant": "ɣ",
+        "environment": "V_V",
+        "examples": ["aɣa (argent)"]
+      }
+    ]
+  }
+]
