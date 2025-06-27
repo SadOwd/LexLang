@@ -1,0 +1,25 @@
+tests/linguistic/
+├── ewe/
+│   ├── morphology/
+│   │   ├── test_noun_classes.py
+│   │   ├── test_verbal_morphology.py
+│   │   └── test_derivational_affixes.py
+│   ├── tonal/
+│   │   ├── test_tone_sandhi.py
+│   │   ├── test_tonal_minimal_pairs.py
+│   │   └── test_tonal_ambiguity_resolution.py
+│   ├── dialects/
+│   │   ├── test_dialect_detection.py
+│   │   ├── test_dialect_conversion.py
+│   │   └── test_dialect_features.py
+│   └── orthography/
+│       ├── test_normalization.py
+│       ├── test_historical_spelling.py
+│       └── test_syllabification.py
+├── fixtures/
+│   ├── minimal_pairs.json
+│   ├── dialect_corpora/
+│   │   ├── anlo_samples.txt
+│   │   └── inland_samples.txt
+│   └── tonal_paradigms.yaml
+└── __init__.py
