@@ -1,0 +1,44 @@
+import pytest
+from src.core.dialect_handler import DialectDetector
+
+class TestDialectDetection:
+    @pytest.fixture
+    def detector(self):
+        return DialectDetector()
+    
+    @pytest.mark.parametrize("text,expected", [
+        ("Míawo dzo kplé àblábìl le agble me", "anlo"),
+        ("Míawo dzo kpo àblábìl le agble me", "inland"),
+        ("Wo dzo gbe kplé ablabil le agble me", "gbekplo"),
+        ("Kɔkɔe ɖu azi gã", "anlo"),      # Signature lexicale
+        ("Kɔkɔe ɖu azi gá", "inland")     # Signature tonale
+    ])
+    def test_dialect_identification(self, detector, text, expected):
+        """Teste l'identification du dialecte principal"""
+        assert detector.detect(text) == expected
+    
+    def test_mixed_text_analysis(self, detector):
+        """Teste l'analyse de textes multidialectaux"""
+        mixed_text = (
+            "Míawo dzo kplé àblábìl le agble me. "  # Anlo
+            "Gake le Gbekplowo dome la, woawo dzo kpo."  # Gbekplo
+        )
+        
+        analysis = detector.analyze_mixed_text(mixed_text)
+        
+        assert len(analysis) == 2
+        assert analysis[0]['dialect'] == "anlo"
+        assert analysis[1]['dialect'] == "gbekplo"
+        assert analysis[0]['confidence'] > 0.7
+        assert analysis[1]['confidence'] > 0.6
+    
+    def test_confidence_calculation(self, detector):
+        """Teste le calcul de confiance"""
+        pure_anlo = "Kɔkɔe ɖu azi gã kple abolo"
+        mixed_text = "Mía dzo kpo le afi sia"
+        
+        pure_score = detector._calculate_confidence(pure_anlo, "anlo")
+        mixed_score = detector._calculate_confidence(mixed_text, "inland")
+        
+        assert pure_score > 0.9
+        assert 0.4 < mixed_score < 0.7
