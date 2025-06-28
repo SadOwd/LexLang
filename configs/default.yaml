@@ -1,0 +1,10 @@
+models:
+  pos_model_path: "models/pos/pos_model_v1.2.pkl"
+  embedding_model_path: "models/embeddings/ewe_word2vec_v2.1.bin"
+  dialect_model_path: "models/classifiers/dialect_classifier_v3.0.pkl"
+  tone_model_path: "models/classifiers/tone_classifier_v2.5.pkl"
+
+data:
+  corpus_path: "data/corpora/"
+  lexicon_path: "data/lexicons/"
+  linguistic_resources_path: "data/linguistic_resources/"
