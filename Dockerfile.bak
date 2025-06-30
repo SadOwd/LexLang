@@ -13,12 +13,11 @@ WORKDIR /app
 FROM base AS builder
 
 # Install build dependencies
-RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
-    --mount=type=cache,target=/var/lib/apt,sharing=locked \
+RUN --mount=type=cache,target=$PIP_CACHE_DIR \
     apt-get update && apt-get install -y --no-install-recommends \
         build-essential \
         gcc \
-    && rm -rf /var/lib/apt/lists/*
+        && rm -rf /var/lib/apt/lists/*
 
 # Copy only dependency files first for better cache usage
 COPY --link pyproject.toml ./
@@ -34,10 +33,10 @@ RUN --mount=type=cache,target=$PIP_CACHE_DIR \
     if [ -f pyproject.toml ]; then .venv/bin/pip install .; fi
 
 # --- Final stage ---
-FROM python:3.11-alpine AS final
+FROM base AS final
 
 # Create non-root user
-RUN addgroup -S lexlang && adduser -S -G lexlang lexlang
+RUN addgroup --system lexlang && adduser --system --ingroup lexlang lexlang
 USER lexlang
 
 WORKDIR /app
