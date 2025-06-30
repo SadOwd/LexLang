@@ -1,0 +1,116 @@
+# 1. Version control
+.git/
+.gitignore
+.svn/
+.hg/
+
+# 2. Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+
+# 3. Node.js/JavaScript artifacts
+node_modules/
+npm-debug.log
+yarn-debug.log
+
+# 4. IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 5. Build and output directories
+dist/
+build/
+out/
+debug/
+
+# 6. Test files and directories
+test/
+tests/
+*.test
+
+# 7. Environment and secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+config.local.*
+*.local.yml
+
+# 8. Project-specific patterns
+# Documentation
+/docs/
+*.md
+README*
+
+# Docker files (ignore all except Dockerfile in root and docker/)
+Dockerfile*
+docker-compose*
+!/docker/Dockerfile
+!/docker/docker-compose.yml
+!/docker/docker-compose.dev.yml
+
+# Temporary and local files
+tmp/
+temp/
+*.tmp
+.local/
+local/
+
+# 9. DVC artifacts
+*.dvc
+.dvcignore
+
+# 10. Miscellaneous
+*.log
+
+# 11. Ignore example outputs and notebooks
+/examples/notebooks/
+
+# 12. Ignore admin and license files
+/admin/
+LICENSE
+DATA_LICENSES.md
+MODEL_VERSIONS.md
+MODEL_CHECKSUMS.md
+MODEL_REGISTRY.json
+
+# 13. Ignore deployment scripts (except needed Dockerfiles)
+/deployment/scripts/
+
+# 14. Ignore monitoring and metrics outputs
+/monitoring/
+/metrics/
+
+# 15. Ignore Makefile
+Makefile
+
+# 16. Ignore other dotfiles
+*.DS_Store
+Thumbs.db
+
+# 17. Ignore frontend build outputs
+/examples/frontend/react/build/
+/examples/mobile/react_native/build/
+
+# 18. Ignore Flutter build outputs
+/examples/mobile/flutter/build/
+
+# 19. Ignore package manager files (except package.json for JS services)
+# (Do not ignore package.json in react/react_native)
+!/examples/frontend/react/package.json
+!/examples/mobile/react_native/package.json
+
+# 20. Ignore all bin/model files tracked by DVC
+/models/**/*.bin
+/models/**/*.pt
+/models/**/*.pkl
+/models/**/*.dvc
+
+# End of .dockerignore

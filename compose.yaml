@@ -1,0 +1,48 @@
+services:
+  python-app:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: python-app
+    restart: unless-stopped
+    # env_file: ./.env  # Uncomment if .env file exists
+    ports:
+      - "8000:8000"  # Exposed by Dockerfile, FastAPI app
+    networks:
+      - app-network
+    # Add depends_on if you add external services (e.g., db)
+
+  js-react:
+    build:
+      context: ./examples/frontend/react
+      dockerfile: Dockerfile
+    container_name: js-react
+    restart: unless-stopped
+    init: true
+    # env_file: ./examples/frontend/react/.env  # Uncomment if .env file exists
+    # By default, React apps are static and do not expose ports unless using dev server
+    networks:
+      - app-network
+    depends_on:
+      - python-app  # If the React app calls the API backend
+    # If you want to expose the dev server, uncomment below:
+    # ports:
+    #   - "3000:3000"
+
+  js-react_native:
+    build:
+      context: ./examples/mobile/react_native
+      dockerfile: Dockerfile
+    container_name: js-react_native
+    restart: unless-stopped
+    init: true
+    # env_file: ./examples/mobile/react_native/.env  # Uncomment if .env file exists
+    networks:
+      - app-network
+    # If you want to expose the Metro bundler port, uncomment below:
+    # ports:
+    #   - "8081:8081"
+
+networks:
+  app-network:
+    driver: bridge
