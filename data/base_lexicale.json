@@ -1,13 +1,11 @@
-# Changelog Base Lexicale Éwé/Mina
-
-## 2025-07-02
-
-### 📊 Statistiques
-- Total entrées: 0
-- Nouvelles entrées: 0
-- Issues traitées: 0
-
-### 🔄 Modifications
-- Mise à jour automatique via workflow N8N
-
-*Dernière mise à jour: 2025-07-02T15:33:18.267Z*
+{
+  "metadata": {
+    "version": "1.0",
+    "langue_source": "ewe-mina",
+    "langue_cible": "francais",
+    "region": "Togo",
+    "total_entrees": 0,
+    "derniere_mise_a_jour": "2025-07-02T15:43:15.226Z"
+  },
+  "entrees": []
+}
