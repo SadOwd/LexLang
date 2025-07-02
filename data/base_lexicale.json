@@ -1,1 +1,11 @@
-
+{
+  "metadata": {
+    "version": "1.0",
+    "langue_source": "ewe-mina",
+    "langue_cible": "francais",
+    "region": "Togo",
+    "total_entrees": 0,
+    "derniere_mise_a_jour": "2025-07-02T15:25:16.563Z"
+  },
+  "entrees": []
+}
