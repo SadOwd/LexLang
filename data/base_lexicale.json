@@ -4,8 +4,42 @@
     "langue_source": "ewe-mina",
     "langue_cible": "francais",
     "region": "Togo",
-    "total_entrees": 0,
-    "derniere_mise_a_jour": "2025-07-02T15:43:15.226Z"
+    "total_entrees": 3,
+    "nouvelles_ajouts": 3,
+    "derniere_mise_a_jour": "2025-07-02T15:59:46.140Z",
+    "issues_traitees": 0,
+    "workflow_execution": "2025-07-02T15:59:46.140Z"
   },
-  "entrees": []
+  "entrees": [
+    {
+      "id": "ewe_exemple_1751471986139_0",
+      "ewe": "akpé",
+      "mina": "akpé",
+      "francais": "merci",
+      "categorie": "politesse",
+      "derniere_modification": "2025-07-02T15:59:46.139Z",
+      "contributeur": "workflow_automatique",
+      "type": "entree_exemple"
+    },
+    {
+      "id": "ewe_exemple_1751471986139_1",
+      "ewe": "míawo",
+      "mina": "míawo",
+      "francais": "vous",
+      "categorie": "pronom",
+      "derniere_modification": "2025-07-02T15:59:46.139Z",
+      "contributeur": "workflow_automatique",
+      "type": "entree_exemple"
+    },
+    {
+      "id": "ewe_exemple_1751471986139_2",
+      "ewe": "ɖé",
+      "mina": "ɖé",
+      "francais": "dire",
+      "categorie": "verbe",
+      "derniere_modification": "2025-07-02T15:59:46.139Z",
+      "contributeur": "workflow_automatique",
+      "type": "entree_exemple"
+    }
+  ]
 }
