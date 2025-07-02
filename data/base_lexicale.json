@@ -6,40 +6,124 @@
     "region": "Togo",
     "total_entrees": 3,
     "nouvelles_ajouts": 3,
-    "derniere_mise_a_jour": "2025-07-02T16:21:52.581Z",
+    "derniere_mise_a_jour": "2025-07-02T16:38:57.576Z",
     "issues_traitees": 0,
-    "workflow_execution": "2025-07-02T16:21:52.581Z"
+    "workflow_execution": "2025-07-02T16:38:57.576Z",
+    "validation_effectuee": true,
+    "date_validation": "2025-07-02T16:38:57.600Z",
+    "entrees_validees": 1,
+    "entrees_rejetees": 2,
+    "score_qualite_global": 0.3333333333333333
   },
   "entrees": [
     {
-      "id": "ewe_exemple_1751473312581_0",
-      "ewe": "akpé",
-      "mina": "akpé",
-      "francais": "merci",
-      "categorie": "politesse",
-      "derniere_modification": "2025-07-02T16:21:52.581Z",
-      "contributeur": "workflow_automatique",
-      "type": "entree_exemple"
-    },
-    {
-      "id": "ewe_exemple_1751473312581_1",
-      "ewe": "míawo",
-      "mina": "míawo",
-      "francais": "vous",
-      "categorie": "pronom",
-      "derniere_modification": "2025-07-02T16:21:52.581Z",
-      "contributeur": "workflow_automatique",
-      "type": "entree_exemple"
-    },
-    {
-      "id": "ewe_exemple_1751473312581_2",
+      "id": "ewe_exemple_1751474337576_2",
       "ewe": "ɖé",
       "mina": "ɖé",
       "francais": "dire",
       "categorie": "verbe",
-      "derniere_modification": "2025-07-02T16:21:52.581Z",
+      "derniere_modification": "2025-07-02T16:38:57.576Z",
       "contributeur": "workflow_automatique",
-      "type": "entree_exemple"
+      "type": "entree_exemple",
+      "validation": {
+        "valide": true,
+        "score_qualite": 0.95,
+        "erreurs": [],
+        "avertissements": [
+          {
+            "type": "doublon_potentiel",
+            "message": "Entrées similaires détectées",
+            "doublons": [
+              {
+                "id": "ewe_exemple_1751474337576_2",
+                "ewe": "ɖé",
+                "francais": "dire",
+                "similarite": "100.0%"
+              }
+            ]
+          }
+        ],
+        "statut": "acceptable"
+      },
+      "date_validation": "2025-07-02T16:38:57.599Z"
+    }
+  ],
+  "entrees_rejetees": [
+    {
+      "id": "ewe_exemple_1751474337575_0",
+      "ewe": "akpé",
+      "mina": "akpé",
+      "francais": "merci",
+      "categorie": "politesse",
+      "derniere_modification": "2025-07-02T16:38:57.576Z",
+      "contributeur": "workflow_automatique",
+      "type": "entree_exemple",
+      "validation": {
+        "valide": false,
+        "score_qualite": 0.75,
+        "erreurs": [
+          {
+            "type": "structure_syllabique_invalide",
+            "champ": "ewe",
+            "message": "Syllabe 1 'akpé' non conforme",
+            "suggestion": "akpé (révision manuelle nécessaire)"
+          }
+        ],
+        "avertissements": [
+          {
+            "type": "doublon_potentiel",
+            "message": "Entrées similaires détectées",
+            "doublons": [
+              {
+                "id": "ewe_exemple_1751474337575_0",
+                "ewe": "akpé",
+                "francais": "merci",
+                "similarite": "100.0%"
+              }
+            ]
+          }
+        ],
+        "statut": "invalide"
+      },
+      "date_validation": "2025-07-02T16:38:57.599Z"
+    },
+    {
+      "id": "ewe_exemple_1751474337576_1",
+      "ewe": "míawo",
+      "mina": "míawo",
+      "francais": "vous",
+      "categorie": "pronom",
+      "derniere_modification": "2025-07-02T16:38:57.576Z",
+      "contributeur": "workflow_automatique",
+      "type": "entree_exemple",
+      "validation": {
+        "valide": false,
+        "score_qualite": 0.75,
+        "erreurs": [
+          {
+            "type": "structure_syllabique_invalide",
+            "champ": "ewe",
+            "message": "Syllabe 1 'míaw' non conforme",
+            "suggestion": "míaw (révision manuelle nécessaire)"
+          }
+        ],
+        "avertissements": [
+          {
+            "type": "doublon_potentiel",
+            "message": "Entrées similaires détectées",
+            "doublons": [
+              {
+                "id": "ewe_exemple_1751474337576_1",
+                "ewe": "míawo",
+                "francais": "vous",
+                "similarite": "100.0%"
+              }
+            ]
+          }
+        ],
+        "statut": "invalide"
+      },
+      "date_validation": "2025-07-02T16:38:57.599Z"
     }
   ]
 }
