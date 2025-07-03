@@ -1,24 +1,45 @@
-# Changelog Base Lexicale Éwé/Mina
-
-## 2025-07-03
-
-### 📊 Statistiques
-- Total entrées: 3
-- Nouvelles entrées: 3
-- Issues GitHub traitées: 0
-- Priorité: basse
-
-### 🔄 Modifications
-- Ajout de 3 nouvelles entrées lexicales
-- Aucune issue GitHub à traiter
-- Aucune correction nécessaire
-
-### 📝 Contributions récentes
-- akpé (akpé) → merci
-- míawo (míawo) → vous
-- ɖé (ɖé) → dire
-
-### 🌍 Préservation linguistique togolaise
-Ce projet contribue à la documentation et préservation des langues éwé et mina du Togo.
-
-*Mise à jour automatique via workflow N8N - 2025-07-03T21:35:57.709Z*
+{
+  "metadata": {
+    "version": "1.0",
+    "langue_source": "ewe-mina",
+    "langue_cible": "francais",
+    "region": "Togo",
+    "total_entrees": 3,
+    "nouvelles_ajouts": 3,
+    "derniere_mise_a_jour": "2025-07-03T21:35:59.456Z",
+    "issues_traitees": 0,
+    "workflow_execution": "2025-07-03T21:35:59.456Z"
+  },
+  "entrees": [
+    {
+      "id": "ewe_exemple_1751578559456_0",
+      "ewe": "akpé",
+      "mina": "akpé",
+      "francais": "merci",
+      "categorie": "politesse",
+      "derniere_modification": "2025-07-03T21:35:59.456Z",
+      "contributeur": "workflow_automatique",
+      "type": "entree_exemple"
+    },
+    {
+      "id": "ewe_exemple_1751578559456_1",
+      "ewe": "míawo",
+      "mina": "míawo",
+      "francais": "vous",
+      "categorie": "pronom",
+      "derniere_modification": "2025-07-03T21:35:59.456Z",
+      "contributeur": "workflow_automatique",
+      "type": "entree_exemple"
+    },
+    {
+      "id": "ewe_exemple_1751578559456_2",
+      "ewe": "ɖé",
+      "mina": "ɖé",
+      "francais": "dire",
+      "categorie": "verbe",
+      "derniere_modification": "2025-07-03T21:35:59.456Z",
+      "contributeur": "workflow_automatique",
+      "type": "entree_exemple"
+    }
+  ]
+}
